@@ -82,7 +82,8 @@ homepage/
 
 - **共著者**: [AtsushiYanaigsawa768](https://github.com/AtsushiYanaigsawa768)
 - **GitHub**: [kakimoto0225/ft-llm-2026](https://github.com/kakimoto0225/ft-llm-2026)
-- **ブログ記事**: [日本語](https://atsushiyanaigsawa768.github.io/mysite/ja/blog/compass/) | [English](https://atsushiyanaigsawa768.github.io/mysite/en/blog/compass/)
+- **PDF**: Coming Soon
+- **Yanagisawaのブログ記事**: [日本語](https://atsushiyanaigsawa768.github.io/mysite/ja/blog/compass/) | [English](https://atsushiyanaigsawa768.github.io/mysite/en/blog/compass/)
 
 > 📝 **今後の研究（Future Works）** — 3つのプロジェクトスロットを準備中です。Coming Soon!
 

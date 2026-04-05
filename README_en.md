@@ -82,7 +82,8 @@ A project on fine-tuning a large language model (llm-jp4) using a Japanese finan
 
 - **Co-author**: [AtsushiYanaigsawa768](https://github.com/AtsushiYanaigsawa768)
 - **GitHub**: [kakimoto0225/ft-llm-2026](https://github.com/kakimoto0225/ft-llm-2026)
-- **Blog Post**: [Japanese](https://atsushiyanaigsawa768.github.io/mysite/ja/blog/compass/) | [English](https://atsushiyanaigsawa768.github.io/mysite/en/blog/compass/)
+- **PDF**: Coming Soon
+- **Yanagisawa's Blog Post**: [Japanese](https://atsushiyanaigsawa768.github.io/mysite/ja/blog/compass/) | [English](https://atsushiyanaigsawa768.github.io/mysite/en/blog/compass/)
 
 > 📝 **Future Works** — 3 project slots are being prepared. Coming Soon!
 
