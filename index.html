@@ -1,290 +1,203 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ja">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>柿本源心 | Homepage</title>
-  <meta name="description" content="柿本源心 — 京都大学経済学部。計量経済学・因果推論・実証産業組織論・機械学習を研究。" />
-  <meta property="og:title" content="柿本源心 | Homepage" />
-  <meta property="og:description" content="研究関心・論文・プロジェクト" />
-  <meta property="og:image" content="assets/images/profile_large.jpg" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>柿本 源心 | Homepage</title>
+  <meta name="description" content="柿本源心の個人ホームページ。京都大学経済学部で計量経済学、因果推論、実証産業組織論、機械学習を研究しています。" />
+  <meta property="og:title" content="柿本 源心 | Homepage" />
+  <meta property="og:description" content="研究関心、論文、プロジェクトをまとめた個人ホームページです。" />
+  <meta property="og:image" content="images/profile_large.jpg" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
-  <!-- ======== Nav ======== -->
-  <nav class="site-nav" id="site-nav">
-    <div class="container nav-inner">
-      <a href="#" class="nav-logo">G<span>.</span>Kakimoto</a>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="メインナビゲーション">
+      <a class="brand" href="#top">K<span>.</span> Genshin</a>
       <div class="nav-links">
-        <a href="#about">プロフィール</a>
-        <a href="#research">研究関心</a>
-        <a href="#papers">論文</a>
-        <a href="#certs">資格</a>
-        <a href="#hobbies">趣味</a>
-        <div class="lang-switch" aria-label="言語切替">
-          <a href="index.html" aria-current="page">JP</a>
-          <a href="index_en.html">EN</a>
-        </div>
+        <a href="#about">Profile</a>
+        <a href="#research">Research</a>
+        <a href="#work">Work</a>
+        <a href="#notes">Notes</a>
+        <a href="#hobbies">Hobbies</a>
       </div>
-    </div>
-  </nav>
-
-  <!-- ======== Hero ======== -->
-  <header class="hero-section" id="hero">
-    <div class="hero-bg"></div>
-    <div class="particles" aria-hidden="true">
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-    </div>
-
-    <div class="container hero-grid">
-      <div class="hero-content">
-        <div class="hero-identity">
-          <img src="assets/images/face.jpg" alt="柿本源心の顔写真" class="hero-avatar" />
-          <div class="hero-name-block">
-            <span class="hero-eyebrow">Kyoto University</span>
-            <h1 class="hero-name">柿本 源心</h1>
-          </div>
-        </div>
-
-        <p class="hero-subtitle">
-          Genshin Kakimoto — 京都大学経済学部経営学科4年。<br />
-          計量経済学・因果推論・実証産業組織論・機械学習などの分野に関心を持ち、研究を行っています。
-        </p>
-
-        <div class="hero-tags">
-          <span class="hero-tag">📊 Econometrics</span>
-          <span class="hero-tag">🔍 Causal Inference</span>
-          <span class="hero-tag">🏭 Empirical IO</span>
-          <span class="hero-tag">🤖 Machine Learning</span>
-        </div>
+      <div class="language-switch" aria-label="言語切り替え">
+        <a href="index.html" aria-current="page">JP</a>
+        <a href="index_en.html">EN</a>
       </div>
-
-      <figure class="hero-portrait">
-        <img src="assets/images/profile_large.jpg" alt="柿本源心のプロフィール写真" />
-      </figure>
-    </div>
+    </nav>
   </header>
 
   <main>
-    <!-- ======== Profile ======== -->
-    <section class="section" id="about">
-      <div class="container">
-        <div class="section-header reveal">
-          <div class="section-icon">👤</div>
-          <h2 class="section-title">プロフィール</h2>
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Kyoto University / Economics</p>
+        <h1>柿本<br />源心</h1>
+        <p class="hero-lead">
+          京都大学経済学部経済経営学科4年。計量経済学、因果推論、実証産業組織論、機械学習に関心を持ち、研究と実装の両面から経済現象を捉えています。
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/kakimoto0225" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="button" href="#work">研究・プロジェクトを見る</a>
         </div>
-        <div class="glass-card reveal reveal-delay-1">
-          <div class="profile-info">
-            <div class="profile-row">
-              <span class="profile-label">所属</span>
-              <span class="profile-value">京都大学経済学部経営学科 4年</span>
-            </div>
-            <div class="profile-row">
-              <span class="profile-label">ゼミ</span>
-              <span class="profile-value">柳ゼミ（<a
-                  href="https://sites.google.com/view/takahide-yanagi/japanese?authuser=0" target="_blank"
-                  rel="noopener noreferrer">柳貴英先生のウェブページ</a>）</span>
-            </div>
-            <div class="profile-row">
-              <span class="profile-label">GitHub</span>
-              <span class="profile-value"><a href="https://github.com/kakimoto0225" target="_blank"
-                  rel="noopener noreferrer">kakimoto0225</a></span>
-            </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="プロフィール概要">
+        <div class="hero-photo-grid">
+          <img class="hero-photo hero-photo-night" src="images/profile_large.jpg" alt="夜景の写真" />
+        </div>
+        <div class="hero-card">
+          <img class="face-avatar" src="images/face.jpg" alt="柿本源心の顔写真" />
+          <div>
+            <p class="card-name">Genshin Kakimoto</p>
+            <p class="card-note">Undergraduate, Faculty of Economics</p>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section profile-layout" id="about">
+      <div class="section-kicker">Profile</div>
+      <div>
+        <h2>プロフィール</h2>
+        <div class="fact-list">
+          <div class="fact-row">
+            <dt>所属</dt>
+            <dd>京都大学経済学部経済経営学科 4年</dd>
+          </div>
+          <div class="fact-row">
+            <dt>ゼミ</dt>
+            <dd>柳ゼミ（<a href="https://sites.google.com/view/takahide-yanagi/japanese?authuser=0" target="_blank" rel="noopener noreferrer">柳貴英先生のウェブページ</a>）</dd>
+          </div>
+          <div class="fact-row">
+            <dt>GitHub</dt>
+            <dd><a href="https://github.com/kakimoto0225" target="_blank" rel="noopener noreferrer">kakimoto0225</a></dd>
           </div>
         </div>
       </div>
     </section>
 
-    <hr class="section-divider" />
-
-    <!-- ======== Research Interests ======== -->
     <section class="section" id="research">
-      <div class="container">
-        <div class="section-header reveal">
-          <div class="section-icon">🔬</div>
-          <h2 class="section-title">研究関心</h2>
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Research</p>
+          <h2>研究関心</h2>
         </div>
-        <div class="research-grid">
-          <div class="research-pill reveal reveal-delay-1"><span class="pill-icon">📊</span> 計量経済学</div>
-          <div class="research-pill reveal reveal-delay-2"><span class="pill-icon">🔍</span> 因果推論</div>
-          <div class="research-pill reveal reveal-delay-3"><span class="pill-icon">🏭</span> 実証産業組織論</div>
-          <div class="research-pill reveal reveal-delay-4"><span class="pill-icon">🤖</span> 機械学習</div>
-        </div>
+        <p class="section-summary">経済学から機械学習まで、幅広く手を出しています。</p>
+      </div>
+      <div class="topic-grid">
+        <article class="topic-card">
+          <span class="topic-number">01</span>
+          <h3>計量経済学</h3>
+        </article>
+        <article class="topic-card">
+          <span class="topic-number">02</span>
+          <h3>因果推論</h3>
+        </article>
+        <article class="topic-card">
+          <span class="topic-number">03</span>
+          <h3>実証産業組織論</h3>
+        </article>
+        <article class="topic-card">
+          <span class="topic-number">04</span>
+          <h3>機械学習</h3>
+        </article>
       </div>
     </section>
 
-    <hr class="section-divider" />
-
-    <!-- ======== Papers & Projects ======== -->
-    <section class="section" id="papers">
-      <div class="container">
-        <div class="section-header reveal">
-          <div class="section-icon">📄</div>
-          <h2 class="section-title">論文・プロジェクト</h2>
+    <section class="section" id="work">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Work</p>
+          <h2>論文・プロジェクト</h2>
         </div>
-        <div class="papers-grid">
+      </div>
 
-          <!-- LLM-JP4 Paper -->
-          <article class="glass-card paper-card reveal reveal-delay-1">
-            <span class="paper-status">● In Progress</span>
+      <div class="work-list">
+        <article class="work-item">
+          <div class="work-meta">
+            <span>Project</span>
+            <span>In Progress</span>
+          </div>
+          <div class="work-body">
             <h3>Fine-tuning llm-jp4 using Japanese financial dataset</h3>
-            <p class="paper-meta">
-              共著：<a href="https://github.com/AtsushiYanaigsawa768" target="_blank"
-                rel="noopener noreferrer">AtsushiYanaigsawa768</a>
+            <p>
+              日本語の金融データセットを用いた大規模言語モデル llm-jp4 のファインチューニングに関するプロジェクト。
+              共著者: <a href="https://github.com/AtsushiYanaigsawa768" target="_blank" rel="noopener noreferrer">AtsushiYanaigsawa768</a>
             </p>
-            <div class="paper-links">
-              <a href="https://github.com/kakimoto0225/ft-llm-2026" class="paper-link" target="_blank"
-                rel="noopener noreferrer">⟨/⟩ GitHub</a>
-              <span class="paper-link" style="opacity:.5;cursor:default;">📑 PDF — Coming Soon</span>
-              <a href="https://atsushiyanaigsawa768.github.io/mysite/ja/blog/compass/" class="paper-link"
-                target="_blank" rel="noopener noreferrer">📝 Yanagisawa's Blog</a>
+            <div class="inline-links">
+              <a href="https://github.com/kakimoto0225/ft-llm-2026" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <span>PDF: Coming Soon</span>
+              <a href="https://atsushiyanaigsawa768.github.io/mysite/ja/blog/compass/" target="_blank" rel="noopener noreferrer">Yanagisawa's Blog</a>
             </div>
-          </article>
-
-          <!-- Future Work 1 -->
-          <div class="glass-card paper-card paper-card--soon reveal reveal-delay-2">
-            <span class="soon-icon">🔬</span>
-            <span class="soon-text">Future Work</span>
-            <span class="soon-sub">Coming Soon</span>
           </div>
+        </article>
 
-          <!-- Future Work 2 -->
-          <div class="glass-card paper-card paper-card--soon reveal reveal-delay-3">
-            <span class="soon-icon">📐</span>
-            <span class="soon-text">Future Work</span>
-            <span class="soon-sub">Coming Soon</span>
+        <article class="work-item work-item-empty">
+          <div class="work-meta">
+            <span>Paper</span>
+            <span>Coming Soon</span>
           </div>
-
-          <!-- Future Work 3 -->
-          <div class="glass-card paper-card paper-card--soon reveal reveal-delay-4">
-            <span class="soon-icon">🧠</span>
-            <span class="soon-text">Future Work</span>
-            <span class="soon-sub">Coming Soon</span>
+          <div class="work-body">
+            <h3>Future Work</h3>
           </div>
+        </article>
 
-        </div>
+        <article class="work-item work-item-empty">
+          <div class="work-meta">
+            <span>Blog</span>
+            <span>Coming Soon</span>
+          </div>
+          <div class="work-body">
+            <h3>Research Notes</h3>
+          </div>
+        </article>
       </div>
     </section>
 
-    <hr class="section-divider" />
-
-    <!-- ======== Certifications ======== -->
-    <section class="section" id="certs">
-      <div class="container">
-        <div class="section-header reveal">
-          <div class="section-icon">🏅</div>
-          <h2 class="section-title">資格</h2>
-        </div>
-        <div class="cert-grid">
-          <div class="glass-card cert-item reveal reveal-delay-1">
-            <div class="cert-icon">📝</div>
-            <div class="cert-details">
-              <span class="cert-name">TOEIC 915点</span>
-              <span class="cert-date">2023年9月</span>
-            </div>
-          </div>
-          <div class="glass-card cert-item reveal reveal-delay-2">
-            <div class="cert-icon">📊</div>
-            <div class="cert-details">
-              <span class="cert-name">データサイエンティスト検定 リテラシーレベル</span>
-              <span class="cert-date">2024年3月</span>
-            </div>
-          </div>
-          <div class="glass-card cert-item reveal reveal-delay-1">
-            <div class="cert-icon">🌐</div>
-            <div class="cert-details">
-              <span class="cert-name">英検 準1級</span>
-              <span class="cert-date">2022年9月</span>
-            </div>
-          </div>
-          <div class="glass-card cert-item reveal reveal-delay-2">
-            <div class="cert-icon">📈</div>
-            <div class="cert-details">
-              <span class="cert-name">統計検定 準1級</span>
-              <span class="cert-date">2026年2月</span>
-            </div>
-          </div>
-        </div>
+    <section class="section split-section" id="notes">
+      <div>
+        <p class="section-kicker">Credentials</p>
+        <h2>資格</h2>
+      </div>
+      <div class="credential-grid">
+        <div class="credential"><strong>TOEIC 915点</strong><span>2023年9月</span></div>
+        <div class="credential"><strong>データサイエンティスト検定 リテラシーレベル</strong><span>2024年3月</span></div>
+        <div class="credential"><strong>英検 準1級</strong><span>2022年9月</span></div>
+        <div class="credential"><strong>統計検定 準1級</strong><span>2026年2月</span></div>
       </div>
     </section>
 
-    <hr class="section-divider" />
-
-    <!-- ======== Hobbies ======== -->
     <section class="section" id="hobbies">
-      <div class="container">
-        <div class="section-header reveal">
-          <div class="section-icon">🎯</div>
-          <h2 class="section-title">趣味</h2>
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Outside Research</p>
+          <h2>趣味</h2>
         </div>
-        <div class="hobby-grid">
-          <div class="hobby-card reveal reveal-delay-1">
-            <img src="assets/images/hobby_movie.jpg" alt="映画" />
-            <div class="hobby-overlay">
-              <span class="hobby-label">🎬 映画</span>
-            </div>
-          </div>
-          <div class="hobby-card reveal reveal-delay-2">
-            <img src="assets/images/hobby_baseball.jpg" alt="野球" />
-            <div class="hobby-overlay">
-              <span class="hobby-label">⚾ 野球</span>
-            </div>
-          </div>
-          <div class="hobby-card reveal reveal-delay-3">
-            <img src="assets/images/hobby_orienteering.jpeg" alt="オリエンテーリング" />
-            <div class="hobby-overlay">
-              <span class="hobby-label">🧭 オリエンテーリング</span>
-            </div>
-          </div>
-        </div>
+      </div>
+      <div class="image-grid">
+        <figure>
+          <img src="images/hobby_movie.jpg" alt="映画のイメージ写真" />
+          <figcaption>映画</figcaption>
+        </figure>
+        <figure>
+          <img src="images/hobby_baseball.jpg" alt="野球のイメージ写真" />
+          <figcaption>野球</figcaption>
+        </figure>
+        <figure>
+          <img src="images/hobby_orienteering.jpeg" alt="オリエンテーリングのイメージ写真" />
+          <figcaption>オリエンテーリング</figcaption>
+        </figure>
       </div>
     </section>
   </main>
 
-  <!-- ======== Footer ======== -->
-  <footer class="site-footer container">
-    <small class="footer-copy">&copy; 2026 Genshin Kakimoto</small>
-    <div class="footer-links">
-      <a href="https://github.com/kakimoto0225" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
+  <footer class="site-footer">
+    <p>&copy; 2026 Genshin Kakimoto</p>
+    <a href="https://github.com/kakimoto0225" target="_blank" rel="noopener noreferrer">GitHub</a>
   </footer>
-
-  <!-- ======== Scroll Reveal Script ======== -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-          }
-        });
-      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-
-      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-      // Smooth nav background on scroll
-      const nav = document.getElementById('site-nav');
-      window.addEventListener('scroll', () => {
-        nav.style.background = window.scrollY > 60
-          ? 'rgba(10, 14, 26, 0.92)'
-          : 'rgba(10, 14, 26, 0.7)';
-      });
-    });
-  </script>
 
 </body>
 

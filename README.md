@@ -1,149 +1,75 @@
-# 🏠 柿本源心 — 個人ホームページ
+# Genshin Kakimoto Homepage
 
-> 京都大学経済学部 経営学科 4年 柿本源心の個人ホームページ
+京都大学経済学部で学ぶ Genshin Kakimoto の個人ホームページです。研究関心、進行中のプロジェクト、資格、趣味などを日本語と英語で掲載しています。
 
-[![GitHub Pages](https://img.shields.io/badge/Live%20Site-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://kakimoto0225.github.io/homepage/)
+公開サイト:
 
-📖 **English version of this README**: [README_en.md](./README_en.md)
+- 日本語: https://kakimoto0225.github.io/homepage/
+- English: https://kakimoto0225.github.io/homepage/index_en.html
 
----
+English README: [README_en.md](./README_en.md)
 
-## 🔗 ホームページへのアクセス
+## このリポジトリについて
 
-以下のリンクをブラウザにコピー＆ペーストして開いてください：
+このリポジトリは、GitHub Pages で公開している静的な個人ホームページのソースコードです。HTML と CSS のみで構成しており、ビルドツールや外部フレームワークは必要ありません。
 
-| 言語 | URL |
-|---|---|
-| 🇯🇵 **日本語版** | **https://kakimoto0225.github.io/homepage/** |
-| 🇬🇧 **English** | **https://kakimoto0225.github.io/homepage/index_en.html** |
+初めて訪れた方は、まず公開サイトを見ると内容を把握しやすいです。GitHub 上では、ページ本文、スタイル、掲載画像、デプロイ設定がどのように管理されているかを確認できます。
 
-> 💡 上記リンクをクリック、またはブラウザのアドレスバーにコピーするだけでアクセスできます。
+## 掲載内容
 
----
+- Profile: 所属、ゼミ、GitHub アカウント
+- Research: 計量経済学、因果推論、実証産業組織論、機械学習
+- Work: 論文、プロジェクト、関連リンク
+- Credentials: TOEIC、データサイエンティスト検定、英検、統計検定
+- Hobbies: 映画、料理、オリエンテーリング
 
-## 📌 概要
+## ファイル構成
 
-このリポジトリは、柿本源心の研究活動・プロフィールをまとめた **個人ホームページ** のソースコードです。  
-日本語版と英語版の2つのページで構成されており、GitHub Pages で公開しています。
-
----
-
-## 🎯 サイトの特徴
-
-| 特徴 | 説明 |
-|---|---|
-| 🌙 **ダークテーマ** | 夜景写真に合わせた高級感のあるダークUIデザイン |
-| 🪟 **グラスモーフィズム** | 半透明のガラス風カードUIで統一されたモダンなデザイン |
-| ✨ **パーティクルアニメーション** | ヒーローセクションに浮遊する光の粒子（CSS only） |
-| 📱 **完全レスポンシブ** | デスクトップ・タブレット・スマートフォンに対応 |
-| 🌐 **日英バイリンガル** | 日本語 / English の切り替え対応 |
-| 🎞️ **スクロールアニメーション** | IntersectionObserver による要素のフェードイン |
-
----
-
-## 🗂️ ディレクトリ構成
-
-```
+```text
 homepage/
-├── index.html                  # 日本語版トップページ
-├── index_en.html               # 英語版トップページ
-├── README.md                   # このファイル（日本語版README）
-├── README_en.md                # 英語版README
-├── assets/
-│   ├── css/
-│   │   └── style.css           # メインスタイルシート（ダークテーマ・アニメーション含む）
-│   └── images/
-│       ├── profile_large.jpg   # ヒーローセクションの縦長プロフィール写真
-│       ├── profile_small.jpg   # プロフィールカード用写真
-│       ├── face.jpg            # ヒーローアバター用の顔写真
-│       ├── hobby_movie.jpg     # 趣味：映画
-│       ├── hobby_baseball.jpg  # 趣味：野球
-│       └── hobby_orienteering.jpg  # 趣味：オリエンテーリング
-└── .github/
-    └── workflows/              # GitHub Actions（GitHub Pages デプロイ設定）
+|-- index.html              # Japanese page
+|-- index_en.html           # English page
+|-- style.css               # Shared stylesheet
+|-- README.md               # Japanese repository overview
+|-- README_en.md            # English repository overview
+|-- images/
+|   |-- face.jpg
+|   |-- profile_large.jpg
+|   |-- profile_small.jpg
+|   |-- hobby_movie.jpg
+|   |-- hobby_baseball.jpg
+|   `-- hobby_orienteering.jpeg
+`-- .github/
+    `-- workflows/
+        `-- pages.yml       # GitHub Pages deployment workflow
 ```
 
----
+## ローカルで確認する方法
 
-## 🔬 研究関心
+このサイトは静的ファイルだけで動作します。手元で確認する場合は、リポジトリをクローンして `index.html` をブラウザで開くか、簡単な HTTP サーバーを起動してください。
 
-- **計量経済学**
-- **因果推論**
-- **実証産業組織論**
-- **機械学習**
+```bash
+git clone https://github.com/kakimoto0225/homepage.git
+cd homepage
+python -m http.server 4173
+```
 
----
+起動後、ブラウザで次の URL を開きます。
 
-## 📄 掲載論文
+- http://127.0.0.1:4173/index.html
+- http://127.0.0.1:4173/index_en.html
 
-### Fine-tuning llm-jp4 using Japanese financial dataset
+## 技術メモ
 
-日本語の金融データセットを用いた大規模言語モデル（llm-jp4）のファインチューニングに関するプロジェクト。
+- HTML5 による静的ページ
+- CSS Grid / Flexbox によるレスポンシブレイアウト
+- Google Fonts を利用した日本語・英語表示
+- GitHub Actions による GitHub Pages へのデプロイ
 
-- **共著者**: [AtsushiYanaigsawa768](https://github.com/AtsushiYanaigsawa768)
-- **GitHub**: [kakimoto0225/ft-llm-2026](https://github.com/kakimoto0225/ft-llm-2026)
-- **PDF**: Coming Soon
-- **Yanagisawaのブログ記事**: [日本語](https://atsushiyanaigsawa768.github.io/mysite/ja/blog/compass/) | [English](https://atsushiyanaigsawa768.github.io/mysite/en/blog/compass/)
+## 管理者
 
-> 📝 **今後の研究（Future Works）** — 3つのプロジェクトスロットを準備中です。Coming Soon!
+- GitHub: [kakimoto0225](https://github.com/kakimoto0225)
 
----
+## ライセンス
 
-## 🏅 資格
-
-| 資格名 | 取得時期 |
-|---|---|
-| TOEIC 915点 | 2023年9月 |
-| データサイエンティスト検定 リテラシーレベル | 2024年3月 |
-| 英検 準1級 | 2022年9月 |
-| 統計検定 準1級 | 2026年2月 |
-
----
-
-## 🛠️ 技術スタック
-
-| 技術 | 用途 |
-|---|---|
-| **HTML5** | セマンティックなページ構造 |
-| **CSS3** | カスタムプロパティ、グラスモーフィズム、CSS Grid/Flexbox、キーフレームアニメーション |
-| **Vanilla JavaScript** | IntersectionObserver によるスクロールアニメーション |
-| **Google Fonts** | Inter / Noto Sans JP |
-| **GitHub Pages** | 静的サイトホスティング |
-
-> フレームワークやビルドツールを使用していない、**ゼロ依存**の静的サイトです。
-
----
-
-## 🚀 ローカルで確認する
-
-1. このリポジトリをクローンします:
-   ```bash
-   git clone https://github.com/kakimoto0225/homepage.git
-   cd homepage
-   ```
-
-2. ブラウザで `index.html` を開きます:
-   ```bash
-   # macOS
-   open index.html
-
-   # Windows
-   start index.html
-
-   # Linux
-   xdg-open index.html
-   ```
-
-   または、VS Code の Live Server 拡張機能を使うと、ホットリロード付きで確認できます。
-
----
-
-## 📬 連絡先
-
-- **GitHub**: [kakimoto0225](https://github.com/kakimoto0225)
-
----
-
-## 📝 ライセンス
-
-© 2026 Genshin Kakimoto. All rights reserved.
+Copyright (c) 2026 Genshin Kakimoto. All rights reserved.

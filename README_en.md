@@ -1,149 +1,75 @@
-# 🏠 Genshin Kakimoto — Personal Homepage
+# Genshin Kakimoto Homepage
 
-> Personal website for Genshin Kakimoto, 4th-year undergraduate at Kyoto University, Faculty of Economics.
+This repository contains the source code for Genshin Kakimoto's personal homepage. The site introduces his profile, research interests, current work, certifications, and hobbies in both Japanese and English.
 
-[![GitHub Pages](https://img.shields.io/badge/Live%20Site-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://kakimoto0225.github.io/homepage/)
+Live site:
 
-📖 **日本語版 README**: [README.md](./README.md)
+- Japanese: https://kakimoto0225.github.io/homepage/
+- English: https://kakimoto0225.github.io/homepage/index_en.html
 
----
+Japanese README: [README.md](./README.md)
 
-## 🔗 Access the Live Site
+## About This Repository
 
-Copy and paste the following links into your browser:
+This is a static website published with GitHub Pages. It is intentionally simple: the site is built with plain HTML and CSS, with no JavaScript framework, build step, or package installation required.
 
-| Language | URL |
-|---|---|
-| 🇯🇵 **Japanese** | **https://kakimoto0225.github.io/homepage/** |
-| 🇬🇧 **English** | **https://kakimoto0225.github.io/homepage/index_en.html** |
+If you are visiting for the first time, the live site is the best place to start. The repository shows how the pages, styling, deployment workflow, and images are organized.
 
-> 💡 Simply click the links above or copy them into your browser's address bar.
+## Site Contents
 
----
+- Profile: affiliation, seminar, and GitHub account
+- Research: econometrics, causal inference, empirical industrial organization, and machine learning
+- Work: papers, projects, and related links
+- Credentials: TOEIC, Data Scientist Certification, EIKEN, and Statistics Certification
+- Hobbies: movies, baseball, and orienteering
 
-## 📌 Overview
+## Repository Structure
 
-This repository hosts the source code for Genshin Kakimoto's personal academic homepage.  
-The site is available in both **Japanese** and **English**, and is published via GitHub Pages.
-
----
-
-## 🎯 Site Features
-
-| Feature | Description |
-|---|---|
-| 🌙 **Dark Theme** | Premium dark UI design inspired by night cityscape photography |
-| 🪟 **Glassmorphism** | Modern translucent glass-style card UI throughout the site |
-| ✨ **Particle Animation** | Floating light particles in the hero section (CSS only) |
-| 📱 **Fully Responsive** | Optimized for desktop, tablet, and mobile devices |
-| 🌐 **Bilingual** | Seamless Japanese / English language switching |
-| 🎞️ **Scroll Animations** | Smooth fade-in effects powered by IntersectionObserver |
-
----
-
-## 🗂️ Project Structure
-
-```
+```text
 homepage/
-├── index.html                  # Japanese top page
-├── index_en.html               # English top page
-├── README.md                   # Japanese README
-├── README_en.md                # This file (English README)
-├── assets/
-│   ├── css/
-│   │   └── style.css           # Main stylesheet (dark theme & animations)
-│   └── images/
-│       ├── profile_large.jpg   # Hero section portrait photo
-│       ├── profile_small.jpg   # Profile card photo
-│       ├── face.jpg            # Hero avatar face photo
-│       ├── hobby_movie.jpg     # Hobby: Movies
-│       ├── hobby_baseball.jpg  # Hobby: Baseball
-│       └── hobby_orienteering.jpg  # Hobby: Orienteering
-└── .github/
-    └── workflows/              # GitHub Actions (GitHub Pages deployment)
+|-- index.html              # Japanese page
+|-- index_en.html           # English page
+|-- style.css               # Shared stylesheet
+|-- README.md               # Japanese repository overview
+|-- README_en.md            # English repository overview
+|-- images/
+|   |-- face.jpg
+|   |-- profile_large.jpg
+|   |-- profile_small.jpg
+|   |-- hobby_movie.jpg
+|   |-- hobby_baseball.jpg
+|   `-- hobby_orienteering.jpeg
+`-- .github/
+    `-- workflows/
+        `-- pages.yml       # GitHub Pages deployment workflow
 ```
 
----
+## Local Preview
 
-## 🔬 Research Interests
+The site can be opened directly in a browser, but using a small local server is closer to the GitHub Pages environment.
 
-- **Econometrics**
-- **Causal Inference**
-- **Empirical Industrial Organization**
-- **Machine Learning**
+```bash
+git clone https://github.com/kakimoto0225/homepage.git
+cd homepage
+python -m http.server 4173
+```
 
----
+Then open:
 
-## 📄 Featured Papers
+- http://127.0.0.1:4173/index.html
+- http://127.0.0.1:4173/index_en.html
 
-### Fine-tuning llm-jp4 using Japanese financial dataset
+## Technical Notes
 
-A project on fine-tuning a large language model (llm-jp4) using a Japanese financial dataset.
+- Static HTML5 pages
+- Responsive layout with CSS Grid and Flexbox
+- Google Fonts for Japanese and English typography
+- GitHub Actions workflow for GitHub Pages deployment
 
-- **Co-author**: [AtsushiYanaigsawa768](https://github.com/AtsushiYanaigsawa768)
-- **GitHub**: [kakimoto0225/ft-llm-2026](https://github.com/kakimoto0225/ft-llm-2026)
-- **PDF**: Coming Soon
-- **Yanagisawa's Blog Post**: [Japanese](https://atsushiyanaigsawa768.github.io/mysite/ja/blog/compass/) | [English](https://atsushiyanaigsawa768.github.io/mysite/en/blog/compass/)
+## Maintainer
 
-> 📝 **Future Works** — 3 project slots are being prepared. Coming Soon!
+- GitHub: [kakimoto0225](https://github.com/kakimoto0225)
 
----
+## License
 
-## 🏅 Certifications
-
-| Certification | Date |
-|---|---|
-| TOEIC 915 | September 2023 |
-| Data Scientist Certification — Literacy Level | March 2024 |
-| EIKEN Pre-1 | September 2022 |
-| Statistics Certification Pre-1 | February 2026 |
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | Usage |
-|---|---|
-| **HTML5** | Semantic page structure |
-| **CSS3** | Custom properties, glassmorphism, CSS Grid/Flexbox, keyframe animations |
-| **Vanilla JavaScript** | Scroll animations via IntersectionObserver |
-| **Google Fonts** | Inter / Noto Sans JP |
-| **GitHub Pages** | Static site hosting |
-
-> This is a **zero-dependency** static site — no build tools or frameworks required.
-
----
-
-## 🚀 Local Development
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/kakimoto0225/homepage.git
-   cd homepage
-   ```
-
-2. Open `index_en.html` in your browser:
-   ```bash
-   # macOS
-   open index_en.html
-
-   # Windows
-   start index_en.html
-
-   # Linux
-   xdg-open index_en.html
-   ```
-
-   Alternatively, use the VS Code Live Server extension for hot-reload support.
-
----
-
-## 📬 Contact
-
-- **GitHub**: [kakimoto0225](https://github.com/kakimoto0225)
-
----
-
-## 📝 License
-
-© 2026 Genshin Kakimoto. All rights reserved.
+Copyright (c) 2026 Genshin Kakimoto. All rights reserved.

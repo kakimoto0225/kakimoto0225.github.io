@@ -1,292 +1,206 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Genshin Kakimoto | Homepage</title>
-  <meta name="description"
-    content="Genshin Kakimoto — Kyoto University. Research in Econometrics, Causal Inference, Empirical IO, Machine Learning, and so on." />
+  <meta name="description" content="Personal homepage for Genshin Kakimoto, an undergraduate at Kyoto University researching econometrics, causal inference, empirical industrial organization, and machine learning." />
   <meta property="og:title" content="Genshin Kakimoto | Homepage" />
-  <meta property="og:description" content="Research interests, papers, and projects" />
-  <meta property="og:image" content="assets/images/profile_large.jpg" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta property="og:description" content="Research interests, papers, and projects." />
+  <meta property="og:image" content="images/profile_large.jpg" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
-  <!-- ======== Nav ======== -->
-  <nav class="site-nav" id="site-nav">
-    <div class="container nav-inner">
-      <a href="#" class="nav-logo">G<span>.</span>Kakimoto</a>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="brand" href="#top">K<span>.</span> Genshin</a>
       <div class="nav-links">
-        <a href="#about">About</a>
+        <a href="#about">Profile</a>
         <a href="#research">Research</a>
-        <a href="#papers">Papers</a>
-        <a href="#certs">Certifications</a>
+        <a href="#work">Work</a>
+        <a href="#notes">Notes</a>
         <a href="#hobbies">Hobbies</a>
-        <div class="lang-switch" aria-label="Language switcher">
-          <a href="index.html">JP</a>
-          <a href="index_en.html" aria-current="page">EN</a>
-        </div>
       </div>
-    </div>
-  </nav>
-
-  <!-- ======== Hero ======== -->
-  <header class="hero-section" id="hero">
-    <div class="hero-bg"></div>
-    <div class="particles" aria-hidden="true">
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-    </div>
-
-    <div class="container hero-grid">
-      <div class="hero-content">
-        <div class="hero-identity">
-          <img src="assets/images/face.jpg" alt="Portrait of Genshin Kakimoto" class="hero-avatar" />
-          <div class="hero-name-block">
-            <span class="hero-eyebrow">Kyoto University</span>
-            <h1 class="hero-name">Genshin Kakimoto</h1>
-          </div>
-        </div>
-
-        <p class="hero-subtitle">
-          4th-year undergraduate at the Faculty of Economics, Kyoto University.<br />
-          Researching Econometrics, Causal Inference, Empirical Industrial Organization, and Machine Learning.
-        </p>
-
-        <div class="hero-tags">
-          <span class="hero-tag">📊 Econometrics</span>
-          <span class="hero-tag">🔍 Causal Inference</span>
-          <span class="hero-tag">🏭 Empirical IO</span>
-          <span class="hero-tag">🤖 Machine Learning</span>
-        </div>
+      <div class="language-switch" aria-label="Language switcher">
+        <a href="index.html">JP</a>
+        <a href="index_en.html" aria-current="page">EN</a>
       </div>
-
-      <figure class="hero-portrait">
-        <img src="assets/images/profile_large.jpg" alt="Profile photo of Genshin Kakimoto" />
-      </figure>
-    </div>
+    </nav>
   </header>
 
   <main>
-    <!-- ======== Profile ======== -->
-    <section class="section" id="about">
-      <div class="container">
-        <div class="section-header reveal">
-          <div class="section-icon">👤</div>
-          <h2 class="section-title">About</h2>
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Kyoto University / Economics</p>
+        <h1>Genshin Kakimoto</h1>
+        <p class="hero-lead">
+          I am a 4th-year undergraduate at the Faculty of Economics, Kyoto University.<br />
+          My interests include Econometrics,<br />
+          Causal Inference,<br />
+          Empirical Industrial Organization, and Machine Learning.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/kakimoto0225" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="button" href="#work">View work</a>
         </div>
-        <div class="glass-card reveal reveal-delay-1">
-          <div class="profile-info">
-            <div class="profile-row">
-              <span class="profile-label">Affiliation</span>
-              <span class="profile-value">4th-year undergraduate, Faculty of Economics, Kyoto University</span>
-            </div>
-            <div class="profile-row">
-              <span class="profile-label">Seminar</span>
-              <span class="profile-value">Yanagi Seminar (<a
-                  href="https://sites.google.com/view/takahide-yanagi/japanese?authuser=0" target="_blank"
-                  rel="noopener noreferrer">Prof. Takahide Yanagi's website</a>)</span>
-            </div>
-            <div class="profile-row">
-              <span class="profile-label">GitHub</span>
-              <span class="profile-value"><a href="https://github.com/kakimoto0225" target="_blank"
-                  rel="noopener noreferrer">kakimoto0225</a></span>
-            </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Profile summary">
+        <div class="hero-photo-grid">
+          <img class="hero-photo hero-photo-night" src="images/profile_large.jpg" alt="Night view photo" />
+        </div>
+        <div class="hero-card">
+          <img class="face-avatar" src="images/face.jpg" alt="Portrait of Genshin Kakimoto" />
+          <div>
+            <p class="card-name">Genshin Kakimoto</p>
+            <p class="card-note">Undergraduate, Faculty of Economics</p>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section profile-layout" id="about">
+      <div class="section-kicker">Profile</div>
+      <div>
+        <h2>About</h2>
+        <div class="fact-list">
+          <div class="fact-row">
+            <dt>Affiliation</dt>
+            <dd>4th-year undergraduate, Faculty of Economics, Kyoto University</dd>
+          </div>
+          <div class="fact-row">
+            <dt>Seminar</dt>
+            <dd>Yanagi Seminar (<a href="https://sites.google.com/view/takahide-yanagi/japanese?authuser=0" target="_blank" rel="noopener noreferrer">Prof. Takahide Yanagi's website</a>)</dd>
+          </div>
+          <div class="fact-row">
+            <dt>GitHub</dt>
+            <dd><a href="https://github.com/kakimoto0225" target="_blank" rel="noopener noreferrer">kakimoto0225</a></dd>
           </div>
         </div>
       </div>
     </section>
 
-    <hr class="section-divider" />
-
-    <!-- ======== Research Interests ======== -->
     <section class="section" id="research">
-      <div class="container">
-        <div class="section-header reveal">
-          <div class="section-icon">🔬</div>
-          <h2 class="section-title">Research Interests</h2>
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Research</p>
+          <h2>Research Interests</h2>
         </div>
-        <div class="research-grid">
-          <div class="research-pill reveal reveal-delay-1"><span class="pill-icon">📊</span> Econometrics</div>
-          <div class="research-pill reveal reveal-delay-2"><span class="pill-icon">🔍</span> Causal Inference</div>
-          <div class="research-pill reveal reveal-delay-3"><span class="pill-icon">🏭</span> Empirical Industrial
-            Organization</div>
-          <div class="research-pill reveal reveal-delay-4"><span class="pill-icon">🤖</span> Machine Learning</div>
-        </div>
+        <p class="section-summary">I study broadly, from economics to machine learning.</p>
+      </div>
+      <div class="topic-grid">
+        <article class="topic-card">
+          <span class="topic-number">01</span>
+          <h3>Econometrics</h3>
+        </article>
+        <article class="topic-card">
+          <span class="topic-number">02</span>
+          <h3>Causal Inference</h3>
+        </article>
+        <article class="topic-card">
+          <span class="topic-number">03</span>
+          <h3>Empirical Industrial Organization</h3>
+        </article>
+        <article class="topic-card">
+          <span class="topic-number">04</span>
+          <h3>Machine Learning</h3>
+        </article>
       </div>
     </section>
 
-    <hr class="section-divider" />
-
-    <!-- ======== Papers & Projects ======== -->
-    <section class="section" id="papers">
-      <div class="container">
-        <div class="section-header reveal">
-          <div class="section-icon">📄</div>
-          <h2 class="section-title">Papers &amp; Projects</h2>
+    <section class="section" id="work">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Work</p>
+          <h2>Papers &amp; Projects</h2>
         </div>
-        <div class="papers-grid">
+      </div>
 
-          <!-- LLM-JP4 Paper -->
-          <article class="glass-card paper-card reveal reveal-delay-1">
-            <span class="paper-status">● In Progress</span>
+      <div class="work-list">
+        <article class="work-item">
+          <div class="work-meta">
+            <span>Project</span>
+            <span>In Progress</span>
+          </div>
+          <div class="work-body">
             <h3>Fine-tuning llm-jp4 using Japanese financial dataset</h3>
-            <p class="paper-meta">
-              Co-authored with <a href="https://github.com/AtsushiYanaigsawa768" target="_blank"
-                rel="noopener noreferrer">AtsushiYanaigsawa768</a>
+            <p>
+              A project on fine-tuning the large language model llm-jp4 using a Japanese financial dataset.
+              Co-authored with <a href="https://github.com/AtsushiYanaigsawa768" target="_blank" rel="noopener noreferrer">AtsushiYanaigsawa768</a>.
             </p>
-            <div class="paper-links">
-              <a href="https://github.com/kakimoto0225/ft-llm-2026" class="paper-link" target="_blank"
-                rel="noopener noreferrer">⟨/⟩ GitHub</a>
-              <span class="paper-link" style="opacity:.5;cursor:default;">📑 PDF — Coming Soon</span>
-              <a href="https://atsushiyanaigsawa768.github.io/mysite/en/blog/compass/" class="paper-link"
-                target="_blank" rel="noopener noreferrer">📝 Yanagisawa's Blog</a>
+            <div class="inline-links">
+              <a href="https://github.com/kakimoto0225/ft-llm-2026" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <span>PDF: Coming Soon</span>
+              <a href="https://atsushiyanaigsawa768.github.io/mysite/en/blog/compass/" target="_blank" rel="noopener noreferrer">Yanagisawa's Blog</a>
             </div>
-          </article>
-
-          <!-- Future Work 1 -->
-          <div class="glass-card paper-card paper-card--soon reveal reveal-delay-2">
-            <span class="soon-icon">🔬</span>
-            <span class="soon-text">Future Work</span>
-            <span class="soon-sub">Coming Soon</span>
           </div>
+        </article>
 
-          <!-- Future Work 2 -->
-          <div class="glass-card paper-card paper-card--soon reveal reveal-delay-3">
-            <span class="soon-icon">📐</span>
-            <span class="soon-text">Future Work</span>
-            <span class="soon-sub">Coming Soon</span>
+        <article class="work-item work-item-empty">
+          <div class="work-meta">
+            <span>Paper</span>
+            <span>Coming Soon</span>
           </div>
-
-          <!-- Future Work 3 -->
-          <div class="glass-card paper-card paper-card--soon reveal reveal-delay-4">
-            <span class="soon-icon">🧠</span>
-            <span class="soon-text">Future Work</span>
-            <span class="soon-sub">Coming Soon</span>
+          <div class="work-body">
+            <h3>Future Work</h3>
           </div>
+        </article>
 
-        </div>
+        <article class="work-item work-item-empty">
+          <div class="work-meta">
+            <span>Blog</span>
+            <span>Coming Soon</span>
+          </div>
+          <div class="work-body">
+            <h3>Research Notes</h3>
+          </div>
+        </article>
       </div>
     </section>
 
-    <hr class="section-divider" />
-
-    <!-- ======== Certifications ======== -->
-    <section class="section" id="certs">
-      <div class="container">
-        <div class="section-header reveal">
-          <div class="section-icon">🏅</div>
-          <h2 class="section-title">Certifications</h2>
-        </div>
-        <div class="cert-grid">
-          <div class="glass-card cert-item reveal reveal-delay-1">
-            <div class="cert-icon">📝</div>
-            <div class="cert-details">
-              <span class="cert-name">TOEIC 915</span>
-              <span class="cert-date">September 2023</span>
-            </div>
-          </div>
-          <div class="glass-card cert-item reveal reveal-delay-2">
-            <div class="cert-icon">📊</div>
-            <div class="cert-details">
-              <span class="cert-name">Data Scientist Certification — Literacy Level</span>
-              <span class="cert-date">March 2024</span>
-            </div>
-          </div>
-          <div class="glass-card cert-item reveal reveal-delay-1">
-            <div class="cert-icon">🌐</div>
-            <div class="cert-details">
-              <span class="cert-name">EIKEN Pre-1</span>
-              <span class="cert-date">September 2022</span>
-            </div>
-          </div>
-          <div class="glass-card cert-item reveal reveal-delay-2">
-            <div class="cert-icon">📈</div>
-            <div class="cert-details">
-              <span class="cert-name">Statistics Certification Pre-1</span>
-              <span class="cert-date">February 2026</span>
-            </div>
-          </div>
-        </div>
+    <section class="section split-section" id="notes">
+      <div>
+        <p class="section-kicker">Credentials</p>
+        <h2>Certifications</h2>
+      </div>
+      <div class="credential-grid">
+        <div class="credential"><strong>TOEIC 915</strong><span>September 2023</span></div>
+        <div class="credential"><strong>Data Scientist Certification - Literacy Level</strong><span>March 2024</span></div>
+        <div class="credential"><strong>EIKEN Pre-1</strong><span>September 2022</span></div>
+        <div class="credential"><strong>Statistics Certification Pre-1</strong><span>February 2026</span></div>
       </div>
     </section>
 
-    <hr class="section-divider" />
-
-    <!-- ======== Hobbies ======== -->
     <section class="section" id="hobbies">
-      <div class="container">
-        <div class="section-header reveal">
-          <div class="section-icon">🎯</div>
-          <h2 class="section-title">Hobbies</h2>
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Outside Research</p>
+          <h2>Hobbies</h2>
         </div>
-        <div class="hobby-grid">
-          <div class="hobby-card reveal reveal-delay-1">
-            <img src="assets/images/hobby_movie.jpg" alt="Movies" />
-            <div class="hobby-overlay">
-              <span class="hobby-label">🎬 Movies</span>
-            </div>
-          </div>
-          <div class="hobby-card reveal reveal-delay-2">
-            <img src="assets/images/hobby_baseball.jpg" alt="Baseball" />
-            <div class="hobby-overlay">
-              <span class="hobby-label">⚾ Baseball</span>
-            </div>
-          </div>
-          <div class="hobby-card reveal reveal-delay-3">
-            <img src="assets/images/hobby_orienteering.jpeg" alt="Orienteering" />
-            <div class="hobby-overlay">
-              <span class="hobby-label">🧭 Orienteering</span>
-            </div>
-          </div>
-        </div>
+      </div>
+      <div class="image-grid">
+        <figure>
+          <img src="images/hobby_movie.jpg" alt="Movie-related photo" />
+          <figcaption>Movies</figcaption>
+        </figure>
+        <figure>
+          <img src="images/hobby_baseball.jpg" alt="Baseball-related photo" />
+          <figcaption>Baseball</figcaption>
+        </figure>
+        <figure>
+          <img src="images/hobby_orienteering.jpeg" alt="Orienteering-related photo" />
+          <figcaption>Orienteering</figcaption>
+        </figure>
       </div>
     </section>
   </main>
 
-  <!-- ======== Footer ======== -->
-  <footer class="site-footer container">
-    <small class="footer-copy">&copy; 2026 Genshin Kakimoto</small>
-    <div class="footer-links">
-      <a href="https://github.com/kakimoto0225" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
+  <footer class="site-footer">
+    <p>&copy; 2026 Genshin Kakimoto</p>
+    <a href="https://github.com/kakimoto0225" target="_blank" rel="noopener noreferrer">GitHub</a>
   </footer>
-
-  <!-- ======== Scroll Reveal Script ======== -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-          }
-        });
-      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-
-      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-      // Smooth nav background on scroll
-      const nav = document.getElementById('site-nav');
-      window.addEventListener('scroll', () => {
-        nav.style.background = window.scrollY > 60
-          ? 'rgba(10, 14, 26, 0.92)'
-          : 'rgba(10, 14, 26, 0.7)';
-      });
-    });
-  </script>
 
 </body>
 
