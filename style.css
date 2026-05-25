@@ -441,6 +441,12 @@ dd {
   font-weight: 700;
 }
 
+.work-meta a {
+  color: var(--muted);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
 .inline-links {
   gap: 1rem;
   color: var(--muted);
@@ -517,6 +523,30 @@ dd {
 
 .site-footer p {
   margin: 0;
+}
+
+.footer-github {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--white);
+  color: var(--ink);
+  box-shadow: 0 8px 18px rgba(34, 35, 31, 0.06);
+  transition: transform 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.footer-github:hover {
+  transform: translateY(-1px);
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.footer-github svg {
+  fill: currentColor;
 }
 
 @media (max-width: 900px) {
