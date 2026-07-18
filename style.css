@@ -525,7 +525,13 @@ dd {
   margin: 0;
 }
 
-.footer-github {
+.footer-social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.footer-social-link {
   width: 44px;
   height: 44px;
   display: inline-flex;
@@ -539,13 +545,13 @@ dd {
   transition: transform 160ms ease, border-color 160ms ease, color 160ms ease;
 }
 
-.footer-github:hover {
+.footer-social-link:hover {
   transform: translateY(-1px);
   border-color: var(--green);
   color: var(--green);
 }
 
-.footer-github svg {
+.footer-social-link svg {
   fill: currentColor;
 }
 

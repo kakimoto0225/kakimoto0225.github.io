@@ -4,8 +4,8 @@
 自身の研究関心（計量経済学、因果推論、実証産業組織論、機械学習）、進行中のプロジェクト、資格、趣味などを日本語と英語のバイリンガルで掲載・運用しています。
 
 **🌍 公開サイト (Live Site)**
-- 日本語版: [https://kakimoto0225.github.io/homepage/](https://kakimoto0225.github.io/homepage/)
-- 英語版 (English): [https://kakimoto0225.github.io/homepage/index_en.html](https://kakimoto0225.github.io/homepage/index_en.html)
+- 日本語版: [https://kakimoto0225.github.io/](https://kakimoto0225.github.io/)
+- 英語版 (English): [https://kakimoto0225.github.io/en/](https://kakimoto0225.github.io/en/)
 
 English repository overview is available here: [README_en.md](./README_en.md)
 
@@ -16,7 +16,7 @@ English repository overview is available here: [README_en.md](./README_en.md)
 このリポジトリは、GitHub Pages で公開している静的な個人ホームページのソースコードを管理するものです。
 フロントエンドはプレーンな HTML と CSS のみで構成しており、ビルドツール（WebpackやViteなど）や外部フレームワーク（ReactやVueなど）に依存しないシンプルかつ高速な設計を採用しています。機能追加やメンテナンスが容易であることが特徴です。
 
-初めて訪れた方は、まず[公開サイト](https://kakimoto0225.github.io/homepage/)を参照いただくことで、全体像を容易に把握できます。GitHub 上では、ページ本文やスタイル、掲載画像、GitHub Actions を用いたデプロイ設定などがどのように実装・管理されているかを確認できます。
+初めて訪れた方は、まず[公開サイト](https://kakimoto0225.github.io/)を参照いただくことで、全体像を容易に把握できます。GitHub 上では、ページ本文やスタイル、掲載画像、GitHub Actions を用いたデプロイ設定などがどのように実装・管理されているかを確認できます。
 
 ## ✨ 主な特徴 (Features)
 

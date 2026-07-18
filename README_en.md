@@ -4,8 +4,8 @@ This repository contains the source code for the personal homepage of Genshin Ka
 The site showcases my research interests (Econometrics, Causal Inference, Empirical Industrial Organization, Machine Learning), ongoing projects, credentials, and hobbies in both English and Japanese.
 
 **🌍 Live Site**
-- English: [https://kakimoto0225.github.io/homepage/index_en.html](https://kakimoto0225.github.io/homepage/index_en.html)
-- Japanese (日本語版): [https://kakimoto0225.github.io/homepage/](https://kakimoto0225.github.io/homepage/)
+- English: [https://kakimoto0225.github.io/en/](https://kakimoto0225.github.io/en/)
+- Japanese (日本語版): [https://kakimoto0225.github.io/](https://kakimoto0225.github.io/)
 
 Japanese repository overview is available here: [README.md](./README.md)
 
@@ -16,7 +16,7 @@ Japanese repository overview is available here: [README.md](./README.md)
 This repository manages the source code for my static personal homepage hosted on GitHub Pages.
 The frontend is built with plain HTML and CSS, intentionally avoiding heavy build tools (like Webpack or Vite) and external frameworks (like React or Vue) to maintain a simple, lightweight, and easy-to-maintain architecture.
 
-For first-time visitors, checking out the [live site](https://kakimoto0225.github.io/homepage/index_en.html) is the easiest way to grasp the overall content. Here in GitHub, you can see how the markup, styles, images, and CI/CD deployment configurations via GitHub Actions are implemented and managed.
+For first-time visitors, checking out the [live site](https://kakimoto0225.github.io/en/) is the easiest way to grasp the overall content. Here in GitHub, you can see how the markup, styles, images, and CI/CD deployment configurations via GitHub Actions are implemented and managed.
 
 ## ✨ Features
 
