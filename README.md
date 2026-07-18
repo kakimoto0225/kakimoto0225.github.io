@@ -4,8 +4,8 @@
 自身の研究関心（計量経済学、因果推論、実証産業組織論、機械学習）、進行中のプロジェクト、資格、趣味などを日本語と英語のバイリンガルで掲載・運用しています。
 
 **🌍 公開サイト (Live Site)**
-- 日本語版: [https://kakimoto0225.github.io/](https://kakimoto0225.github.io/)
-- 英語版 (English): [https://kakimoto0225.github.io/en/](https://kakimoto0225.github.io/en/)
+- 日本語版: [kakimoto0225.github.io](https://kakimoto0225.github.io/)
+- 英語版 (English): [kakimoto0225.github.io/en/](https://kakimoto0225.github.io/en/)
 
 English repository overview is available here: [README_en.md](./README_en.md)
 

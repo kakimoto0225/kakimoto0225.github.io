@@ -4,8 +4,8 @@ This repository contains the source code for the personal homepage of Genshin Ka
 The site showcases my research interests (Econometrics, Causal Inference, Empirical Industrial Organization, Machine Learning), ongoing projects, credentials, and hobbies in both English and Japanese.
 
 **🌍 Live Site**
-- English: [https://kakimoto0225.github.io/en/](https://kakimoto0225.github.io/en/)
-- Japanese (日本語版): [https://kakimoto0225.github.io/](https://kakimoto0225.github.io/)
+- English: [kakimoto0225.github.io/en/](https://kakimoto0225.github.io/en/)
+- Japanese (日本語版): [kakimoto0225.github.io](https://kakimoto0225.github.io/)
 
 Japanese repository overview is available here: [README.md](./README.md)
 
