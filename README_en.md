@@ -43,7 +43,7 @@ The website is structured into the following main sections:
 ## 📂 Directory Structure
 
 ```text
-homepage/
+kakimoto0225.github.io/
 ├── .github/
 │   └── workflows/
 │       └── pages.yml           # CI/CD workflow for automated GitHub Pages deployment
@@ -67,8 +67,8 @@ Since this project relies purely on vanilla HTML and CSS, there are no special p
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/kakimoto0225/homepage.git
-   cd homepage
+   git clone https://github.com/kakimoto0225/kakimoto0225.github.io.git
+   cd kakimoto0225.github.io
    ```
 
 2. **Preview in Browser**

@@ -43,7 +43,7 @@ English repository overview is available here: [README_en.md](./README_en.md)
 ## 📂 ファイル・ディレクトリ構成
 
 ```text
-homepage/
+kakimoto0225.github.io/
 ├── .github/
 │   └── workflows/
 │       └── pages.yml           # GitHub Pagesへの自動デプロイを設定するCI/CDワークフロー
@@ -67,8 +67,8 @@ homepage/
 
 1. **リポジトリのクローン**
    ```bash
-   git clone https://github.com/kakimoto0225/homepage.git
-   cd homepage
+   git clone https://github.com/kakimoto0225/kakimoto0225.github.io.git
+   cd kakimoto0225.github.io
    ```
 
 2. **ブラウザでの確認**
